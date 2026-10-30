@@ -13,6 +13,10 @@
 
 ## すぐ遊ぶ
 
+ブラウザ版: https://takano4geru.github.io/batrun/ （main への push で GitHub Actions が自動ビルド・公開します）
+
+ローカルで動かす場合:
+
 ```
 cd flutter-app
 flutter pub get
