@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Flutter ビルド成果物・ローカル設定
+flutter-app/build/
+flutter-app/web_build/
+flutter-app/.dart_tool/
+flutter-app/android/local.properties
+flutter-app/android/*.iml
+flutter-app/*.iml
+flutter-app/ios/Flutter/ephemeral/
+flutter-app/ios/Flutter/Generated.xcconfig
+flutter-app/ios/Flutter/flutter_export_environment.sh
+flutter-app/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+flutter-app/ios/Runner/GeneratedPluginRegistrant.*
+
+# 大きい中間データ（scripts/ で再生成可能。GitHub Release に添付）
+course-data/scenery_ring_inner.json
+course-data/scenery_ring_inner.geojson
+course-data/scenery_ring_inner_osm.json
+course-data/scenery_ring_inner_osm.geojson
+course-data/*.npy
+
+# 配布用 zip
+*.zip
+.DS_Store
